@@ -5,7 +5,7 @@ from collections import deque, defaultdict
 app = Flask(__name__)
 
 transactions = deque()
-balances = defualtdict(int)
+balances = defaultdict(int)
 
 @app.route('/add', methods=['POST'])
 def app_points():
