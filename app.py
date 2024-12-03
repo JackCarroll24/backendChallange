@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from collections import deque, defualtdict
+from collections import deque, defaultdict
 
 
 app = Flask(__name__)
