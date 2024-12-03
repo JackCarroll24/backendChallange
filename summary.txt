@@ -1,0 +1,24 @@
+---
+### summary.txt
+---
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+-I chose Python and Flask for this challenge because of their simplicity and my level of comfortability with them. 
+-I feel very good with Python and using Flask was a fun challange. 
+-Flask is lightweight and easy for building REST APIs for small projects like this one. 
+-Python's built-in libraries were also extremely useful.
+
+2. What are the advantages and disadvantages of your solution?
+
+Advantages:
+- Clear and modular design with logic for adding, spending, and retrieving points.
+- First-in, First-out logic implemented efficiently using deque for transactions.
+- Easily extensible for future features, such as possible multi-user support.
+
+Disadvantages:
+- Data is stored in memory, so it is not persistent. Restarting the server will erase all data.
+
+3. What has been a favorite school/personal project thus far? What about it challenged you?
+
+My favorite project was building a Blockchain simulation using python and Flask. Understanding how Blockchain technology works was a challange in itself.
+The most difficult part was probably integrating Flask to simulate nodes in a network as it added a lot of complexity and choosing the correct RESTful APIs to allow nodes to communicate.
+Overall, it was a super intresting and fun project that I learned a lot from.
